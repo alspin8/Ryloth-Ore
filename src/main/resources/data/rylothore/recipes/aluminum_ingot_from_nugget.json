@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rylothore",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nugget/aluminum"
+    }
+  },
+  "result": {
+    "item": "rylothore:aluminum_ingot"
+  }
+}

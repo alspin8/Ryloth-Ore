@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rylothore:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "rylothore:platinum_block"
+  }
+}

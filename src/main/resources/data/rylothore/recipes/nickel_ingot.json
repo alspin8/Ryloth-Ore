@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "nickel_ingot",
+  "ingredients": [
+    {
+      "item": "rylothore:nickel_block"
+    }
+  ],
+  "result": {
+    "item": "rylothore:nickel_ingot",
+    "count": 9
+  }
+}

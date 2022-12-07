@@ -1,0 +1,54 @@
+{
+  "replace": false,
+  "values": [
+    "rylothore:aluminum_block",
+    "rylothore:aluminum_ore",
+    "rylothore:deepslate_aluminum_ore",
+    "rylothore:endstone_aluminum_ore",
+    "rylothore:netherrack_aluminum_ore",
+
+    "rylothore:lead_block",
+    "rylothore:lead_ore",
+    "rylothore:deepslate_lead_ore",
+    "rylothore:endstone_lead_ore",
+    "rylothore:netherrack_lead_ore",
+
+    "rylothore:nickel_block",
+    "rylothore:nickel_ore",
+    "rylothore:deepslate_nickel_ore",
+    "rylothore:endstone_nickel_ore",
+    "rylothore:netherrack_nickel_ore",
+
+    "rylothore:platinum_block",
+    "rylothore:platinum_ore",
+    "rylothore:deepslate_platinum_ore",
+    "rylothore:endstone_platinum_ore",
+    "rylothore:netherrack_platinum_ore",
+
+    "rylothore:silver_block",
+    "rylothore:silver_ore",
+    "rylothore:deepslate_silver_ore",
+    "rylothore:endstone_silver_ore",
+    "rylothore:netherrack_silver_ore",
+
+    "rylothore:tin_block",
+    "rylothore:tin_ore",
+    "rylothore:deepslate_tin_ore",
+    "rylothore:endstone_tin_ore",
+    "rylothore:netherrack_tin_ore",
+
+    "rylothore:zinc_block",
+    "rylothore:zinc_ore",
+    "rylothore:deepslate_zinc_ore",
+    "rylothore:endstone_zinc_ore",
+    "rylothore:netherrack_zinc_ore",
+
+    "rylothore:ruby_block",
+    "rylothore:ruby_ore",
+    "rylothore:deepslate_ruby_ore",
+
+    "rylothore:sapphire_block",
+    "rylothore:sapphire_ore",
+    "rylothore:deepslate_sapphire_ore"
+  ]
+}
