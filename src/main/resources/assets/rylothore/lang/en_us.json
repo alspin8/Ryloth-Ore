@@ -18,6 +18,14 @@
   "item.rylothore.raw_tin": "Raw Tin",
   "item.rylothore.raw_zinc": "Raw Zinc",
 
+  "item.rylothore.aluminum_nugget": "Aluminum Nugget",
+  "item.rylothore.lead_nugget": "Lead Nugget",
+  "item.rylothore.nickel_nugget": "Nickel Nugget",
+  "item.rylothore.platinum_nugget": "Platinum Nugget",
+  "item.rylothore.silver_nugget": "Silver Nugget",
+  "item.rylothore.tin_nugget": "Tin Nugget",
+  "item.rylothore.zinc_nugget": "Zinc Nugget",
+
   "block.rylothore.aluminum_block": "Block of Aluminum",
   "block.rylothore.lead_block": "Block of Lead",
   "block.rylothore.nickel_block": "Block of Nickel",

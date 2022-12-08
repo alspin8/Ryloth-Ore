@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "lead_ingot",
-  "ingredients": [
-    {
-      "item": "rylothore:lead_block"
-    }
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/lead"
+    }
+  },
   "result": {
-    "item": "rylothore:lead_ingot",
-    "count": 9
+    "item": "rylothore:lead_ingot"
   }
 }

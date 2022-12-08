@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "platinum_ingot",
-  "ingredients": [
-    {
-      "item": "rylothore:platinum_block"
-    }
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/platinum"
+    }
+  },
   "result": {
-    "item": "rylothore:platinum_ingot",
-    "count": 9
+    "item": "rylothore:platinum_ingot"
   }
 }

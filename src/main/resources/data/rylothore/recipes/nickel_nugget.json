@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "nickel_nugget",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/nickel"
+    }
+  ],
+  "result": {
+    "item": "rylothore:nickel_nugget",
+    "count": 9
+  }
+}

@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "tin_ingot",
-  "ingredients": [
-    {
-      "item": "rylothore:tin_block"
-    }
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/tin"
+    }
+  },
   "result": {
-    "item": "rylothore:tin_ingot",
-    "count": 9
+    "item": "rylothore:tin_ingot"
   }
 }

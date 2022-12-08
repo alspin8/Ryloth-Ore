@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "rylothore",
   "pattern": [
     "###",
     "###",
@@ -7,7 +8,7 @@
   ],
   "key": {
     "#": {
-      "item": "rylothore:sapphire"
+      "tag": "forge:gems/sapphire"
     }
   },
   "result": {
