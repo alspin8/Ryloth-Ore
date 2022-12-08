@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "tin_ingot",
+  "ingredient": {
+    "tag": "forge:raw_materials/tin"
+  },
+  "result": "rylothore:tin_ingot"
+}
