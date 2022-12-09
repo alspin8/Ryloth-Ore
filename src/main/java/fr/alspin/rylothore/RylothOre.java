@@ -1,8 +1,10 @@
 package fr.alspin.rylothore;
 
 import com.mojang.logging.LogUtils;
-import fr.alspin.rylothore.block.Blocks;
-import fr.alspin.rylothore.item.Items;
+import fr.alspin.rylothore.block.RylothBlocks;
+import fr.alspin.rylothore.item.RylothItems;
+import fr.alspin.rylothore.world.feature.RylothConfiguredFeatures;
+import fr.alspin.rylothore.world.feature.RylothPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,8 +22,10 @@ public class RylothOre {
     public RylothOre() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Items.register(bus);
-        Blocks.register(bus);
+        RylothItems.register(bus);
+        RylothBlocks.register(bus);
+        RylothConfiguredFeatures.register(bus);
+        RylothPlacedFeatures.register(bus);
 
         bus.addListener(this::commonSetup);
 
