@@ -2,7 +2,7 @@ package fr.alspin.rylothore.block;
 
 import fr.alspin.rylothore.RylothOre;
 import fr.alspin.rylothore.item.CreativeTab;
-import fr.alspin.rylothore.item.Items;
+import fr.alspin.rylothore.item.RylothItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class Blocks {
+public class RylothBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RylothOre.MOD_ID);
 
     public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
@@ -243,7 +243,7 @@ public class Blocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab) {
-        Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+        RylothItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
     public static void register(IEventBus eventBus) {
